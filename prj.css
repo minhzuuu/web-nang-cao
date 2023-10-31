@@ -1,0 +1,556 @@
+header
+{
+    background-color: black;
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+}
+.duongke1
+{
+    height: 0.03em;
+    width: 100%;
+    background-color: #333333;
+}
+#logo
+{
+    width:auto ;
+    height: 6rem;
+    margin-top: 0.75rem;
+    margin-left: 8rem;
+}
+#ten
+{
+    width: 7em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4.7rem;
+    margin-left: 6rem;
+    font-size: 1.1rem;
+}
+#thuonghieu
+{
+    margin-top: 3.8em;
+    color: #b5b5b5;
+    margin-left: 16em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+#search
+{
+    margin-left: 7rem;
+    margin-top: 1.75em;
+}
+#search input
+{
+    background-color: #333333;
+    height: 3rem;
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    padding-top: 0.2em;
+    border: none;
+}
+#search button
+{
+    background-color: #333333;
+    height: 3.45rem;
+    margin-left: -0.3em;
+    padding-top:  0.1em ;
+    width: 3.4rem;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+input::placeholder
+{
+    color: #b5b5b5;
+    font-size: 1.2em;
+    padding-left: 0.8em;
+}
+#search input:visited
+{
+    border: none;
+    border-bottom-color: #0065ee;
+}
+nav
+{
+    height: 5em;
+    background-color: black;
+}
+.menu
+{
+    margin-left: 8em;
+    display: flex;
+}
+.nav-item
+{
+    margin-top: 1.7em;
+}
+.menu-ic
+{
+    display: none;
+}
+.ic1
+{
+    background-color: transparent;
+    border: transparent;
+}
+.ic1:hover
+{
+    background-color: #333333;
+}
+.nav-link
+{
+    text-decoration: none;
+    color:#b5b5b5 ;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+.nav-link:hover
+{
+    color: white;
+}
+.nav2
+{
+    margin-top: 0.1em;
+    background-color: black;
+    height: 3.5em;
+}
+.uudai
+{
+    color: white;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    margin-left: 24em;
+    padding-top: 0.5em;
+}
+.content1
+{
+    margin-top: 0.1em;
+    background-color: black;
+    width: 100%;
+    height: 70em;
+}
+.content1 img
+{
+    width:80%;
+    height: auto;
+    float: right;
+}
+.gift
+{
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9em;
+    padding-left: 1.8em;
+    color: white;
+    font-size: 4em;
+}
+.gift2
+{
+    position: absolute;
+    width: 30em;
+    color: #b5b5b5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    padding-top: 37em;
+    padding-left: 6em;
+}
+.btn1
+{
+    display: flex;
+    position: absolute;
+    margin-left: 2.5em;
+    margin-top: 20em;
+}
+.chonxe
+{
+    font-size: 1em;
+    width: 16em;
+    height: 3em;
+    background-color: transparent;
+    color: white;
+    border-radius: 0.2em;
+    margin-top: 32em;
+    margin-left: 5em;
+    border-width: 0.1em;
+    border-color: #b5b5b5;
+}
+.khampha
+{
+    background-color: #0080da;
+    color: white;
+    font-size: 1em;
+    margin-left: 0.5em;
+    width: 11em;
+    height: 3em;
+    margin-top: 32em;
+    border-radius: 0.2em;
+}
+.chonxe:hover
+{
+    background-color: #444444;
+    transition: 0.8s;
+    opacity: 90%;
+}
+.khampha:hover
+{
+    background-color: #005088;
+    border-color: #0080da;
+    transition: 0.8s;
+}
+.content1 img
+{
+    width: 100%;
+    height: auto;
+}
+.content2
+{
+    width: 100%;
+    height: 45em;
+    background-color: black;
+}
+/*.content2-item:hover
+{
+    transform: translateY(-1rem);
+    transition: 0.5s;
+}
+.content2-item-left:hover
+{
+    transform: translateY(-1rem);
+    transition: 0.5s;
+}
+.content2-item-right:hover
+{
+    transform: translateY(-1rem);
+    transition: 0.5s;
+}*/
+#timhieu
+{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    padding-left: 2.5em;
+}
+.content2-menu
+{
+    background-color:black ;
+    display: flex;
+    padding-top: 4em ;
+}
+.content2-item-left
+{
+    margin-left: 8%;
+    margin-right: 2%;
+    background-color: white;
+    width: 19%;
+}
+.content2-menu img
+{
+    width: 100%;
+    height: 12em;
+}
+.content2-menu button
+{
+    background-color:#0080da ;
+    color: white;
+    font-size: 1em;
+    width: 13em;
+    height: 3.5em;
+    border-radius: 0.2em;
+    border: transparent;
+    margin-left: 2.5em;
+}
+.content2-menu button:hover
+{
+    background-color: #072e77;
+    transition: 1s;
+    opacity: 85%;
+}
+#content2-menu-button1
+{
+    margin-top: 7em ;
+}
+#content2-menu-button2
+{
+    margin-top: 5.4em;
+}
+#content2-menu-button3
+{
+    margin-top: 7em;
+}
+#content2-menu-button4
+{
+    margin-top: 5.4em;
+}
+.content2-item-right
+{
+    margin-left: 2%;
+    margin-right: 8%;
+    background-color: white;
+    width: 19%;
+}
+.content2-item
+{
+    width:19%;
+    height: 33em;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+}
+.content2-item-text
+{
+    padding-top: 1.2em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-size: 1.3em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content2-item-text2
+{
+    padding-top: 1em;
+    padding-left: 1.4em;
+    padding-right: 1.2em;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content2-item-left:hover
+{
+    transform: translateY(-2rem);
+    transition: 1s;
+}
+.content2-item:hover
+{
+    transform: translateY(-2rem);
+    transition: 1s;
+}
+.content2-item-right:hover
+{
+    transform: translateY(-2rem);
+    transition: 1s;
+}
+.content3
+{
+    background-color: white;
+    width: 100%;
+    height: 70em;
+}
+.xe
+{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2em;
+    padding-left: 2.5em;
+}
+.menuxe-link
+{
+    width: 15em;
+    height: 3.5em;
+    text-align: center;
+    border-color: #000000;
+    border-width: 2em;
+}
+.menuxe-link:hover
+{
+    background-color: #e6e6e6;
+    transition: 0.5s;
+}
+.nav a
+{
+    padding-top: 3em;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-top: 20em;
+}
+.menuxe
+{
+    margin-top: 4em;
+    margin-left: 6em;
+    display: flex;
+}
+footer
+ {
+
+    width: 100%;
+    margin-left: -0.15em;
+    margin-bottom: -10px;
+    background-color: #000000;
+    height: 120px;
+    border-top: 2px;
+    border-top-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    border-style: solid;
+ }
+ .foot
+ {
+   margin-left: 100px;
+   margin-top: 20px;
+ }
+.showmenu
+{
+    display: flex !important;
+}
+.duongke
+{
+    width: 100%;
+    height: 0.03em;
+    background-color: #333333;
+    margin-left: 1em;
+    margin-top: 1em;
+    display: none;
+}
+@media only screen and (max-width:500px)
+{
+    header
+    {
+        width: 100%;
+        height: 8em;
+        display: flex;
+    }
+    #logo
+    {
+        width: auto;
+        margin-left: 7em;
+    }
+    #ten
+    {
+        display: none;
+    }
+    #search
+    {
+        display: none;
+    }
+    #thuonghieu
+    {
+        display: none;
+    }
+    .nav
+    {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-top: -1.5em;
+        width: 90%;
+        height: 30em;
+        border-radius: 0.2em;
+    }
+    .menu-ic
+    {
+        display: block;
+        padding-top: 0.7em;
+        padding-left: 1em;
+    }
+    
+    .duongke
+    {
+        display: block;
+        color: #a2a2a2;
+        width: 100%;
+        size: 0.1em;
+    }
+    .menu 
+    {
+        display: block;
+        justify-content: center;
+        margin-left: 1.5em;
+    }
+    .nav-item
+    {
+        padding-top: 15px;
+    }
+    .nav2
+    {
+        width: 100%;
+    }
+    .uudai
+    {
+        font-size: 1em;
+        margin-left: 0.5em;
+    }
+    .content1
+    {
+        height: 42em;
+        display: block;
+    }
+        .gift
+        {
+            font-size: 2em;
+            position: relative;
+            padding-top: 2em;
+        }
+        .gift2
+        {
+            width: 82%;
+            font-size: 1em;
+            position: relative;
+            padding-top: 2em;
+            padding-left: 4em;
+        }
+        .btn1
+        {
+            display: block;
+            margin-top: -25em;
+        }
+        .chonxe
+        {
+            margin-top: 27em;
+        }
+        .khampha
+        {
+            margin-top: 1em;
+            margin-left: 5em;
+            width: 16em;
+        }
+    .content2
+    {
+        height: 155em;
+    }
+        .content2-menu
+        {
+            display: block;
+            height: 150em;
+        }
+        .content2-item
+        {
+            width: 80%;
+            margin-top: 3em;
+            margin-left: 2.8em;
+            height: 33em;
+        }
+        .content2-item-left
+        {
+            width: 80%;
+            margin-top: 3em;
+            margin-left: 2.8em;
+            height: 33em;
+        }
+        .content2-item-right
+        {
+            width: 80%;
+            margin-top: 3em;
+            margin-left: 2.8em;
+            height: 33em;
+        }
+        .content2-menu button
+        {
+            margin-left: 4.5em;
+        }
+    #timhieu
+    {
+        margin-left: -1.2em;
+        font-size: 2.5em;
+    }
+    footer
+    {
+        width: 100%;
+        height: 10em;
+    }
+    .foot
+    {
+    margin-left: 3em;
+    margin-top: 2em;
+    }
+}
