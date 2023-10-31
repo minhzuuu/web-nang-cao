@@ -1,0 +1,193 @@
+body
+{
+    background-color:white;
+}
+.muclucxe img
+{   
+    margin-top: 2.5em;
+    width: 100%;
+    height: 12em;
+}
+.muclucxe .tenxe
+{
+    padding-top: 2em;
+    padding-left: 5.5em;
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dong1
+{
+    padding-top: 3em;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 35em;
+}
+.dong1cot1
+{
+    margin-left: 10em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong1cot2
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong1cot3
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong2
+{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 35em;
+}
+.dong2cot1
+{
+    margin-left: 10em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong2cot2
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong2cot3
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong3
+{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 35em;
+}
+.dong3cot1
+{
+    margin-left: 10em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong3cot2
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.dong3cot3
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    height: 30em;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.gia
+{
+    color: #ababab;
+    font-size: 1.2em;
+    padding-left: 3.5em;
+    padding-top: 2em;
+}
+@media only screen and (max-width:500px)
+{
+    .muclucxe
+    {
+        height: 80em;
+    }
+    .dong1cot1
+    {
+        margin-left: 7em;
+    }
+    .dong1cot2
+    {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .dong1cot3
+    {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .dong1
+    {
+        display:  block;
+        height: 100em;
+    }
+    .dong2
+    {
+        display: block;
+        height: 100em;
+    }
+    .dong2cot1
+    {
+        margin-left: 7em;
+        margin-top: -7em;
+    }
+    .dong2cot2
+    {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .dong2cot3
+    {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .dong3
+    {
+        display: block;
+        height: 95em;
+    }
+    .dong3cot1
+    {
+        margin-left: 7em;
+        margin-top: -7em;
+    }
+    .dong3cot2
+    {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .dong3cot3
+    {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+}
